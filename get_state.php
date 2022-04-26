@@ -20,5 +20,6 @@ $date = explode(" ",microtime());
 echo "
 "."data: #".sprintf("%.2f",$date[0]+$date[1])."
 ";
+sleep(0.5);
 }
 ?>
