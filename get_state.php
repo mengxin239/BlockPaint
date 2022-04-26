@@ -1,6 +1,7 @@
 <?php
 include "config.php";
-ob_implicit_flush(true);
+ob_end_clean();
+ob_implicit_flush(true); 
 header('Content-Type: text/event-stream');
 header('Cache-Control: no-cache');
 for($temp=0;$temp<100;$temp++){
