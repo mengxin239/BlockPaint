@@ -26,4 +26,5 @@ if (preg_match("/[^0-9]+/", $_GET['ID'])!=0 && !isset($_GET['id'])) {
 	mysqli_close($con);
 	echo (int)$stat."  ".sprintf("%.2f",$date[0]+$date[1]);
 }
+sleep(0.5);
 ?>
